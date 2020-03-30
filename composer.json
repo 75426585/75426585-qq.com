@@ -1,0 +1,23 @@
+{
+    "name": "75426585/composer-test",
+    "description": "测试",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ji shuai",
+            "email": "75426585@qq.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
